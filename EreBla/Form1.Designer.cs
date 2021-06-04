@@ -29,6 +29,7 @@ namespace EreBla
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CharacterSelect));
             this.PictMuiBig = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.PictMuiSmall = new System.Windows.Forms.PictureBox();
@@ -149,6 +150,7 @@ namespace EreBla
             this.Controls.Add(this.PictEreSmall);
             this.Controls.Add(this.LabelVolumeCtrl);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "CharacterSelect";
