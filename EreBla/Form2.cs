@@ -484,12 +484,11 @@ namespace EreBla
             AudioFileReader audioReader;
 
             audioReader = new AudioFileReader("voice\\" + s + ".mp3");
-            audioReader.Volume = (float)((float)Volume / 100f);
+            audioReader.Volume = (float)((float)Volume / 100f * 0.7f);
             pl = new NAudio.Wave.WaveOut();
             pl.Init(audioReader);
             pl.Play();
-            while (pl.PlaybackState == PlaybackState.Playing)
-            {
+            while (pl.PlaybackState == PlaybackState.Playing) {
                 await Task.Delay(100);
             }
             // pl.Dispose();

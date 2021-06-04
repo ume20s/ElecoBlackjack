@@ -275,26 +275,6 @@ namespace EreBla.Properties {
         }
         
         /// <summary>
-        ///   型 System.Byte[] のローカライズされたリソースを検索します。
-        /// </summary>
-        internal static byte[] cardDistribute {
-            get {
-                object obj = ResourceManager.GetObject("cardDistribute", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   型 System.Byte[] のローカライズされたリソースを検索します。
-        /// </summary>
-        internal static byte[] cardOpen {
-            get {
-                object obj = ResourceManager.GetObject("cardOpen", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
         ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
         /// </summary>
         internal static System.Drawing.Bitmap d01 {
@@ -431,26 +411,6 @@ namespace EreBla.Properties {
             get {
                 object obj = ResourceManager.GetObject("docchi", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   型 System.Byte[] のローカライズされたリソースを検索します。
-        /// </summary>
-        internal static byte[] drawE {
-            get {
-                object obj = ResourceManager.GetObject("drawE", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   型 System.Byte[] のローカライズされたリソースを検索します。
-        /// </summary>
-        internal static byte[] drawM {
-            get {
-                object obj = ResourceManager.GetObject("drawM", resourceCulture);
-                return ((byte[])(obj));
             }
         }
         
@@ -735,16 +695,6 @@ namespace EreBla.Properties {
         }
         
         /// <summary>
-        ///   型 System.Byte[] のローカライズされたリソースを検索します。
-        /// </summary>
-        internal static byte[] hand_cursor {
-            get {
-                object obj = ResourceManager.GetObject("hand_cursor", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
         ///   (アイコン) に類似した型 System.Drawing.Icon のローカライズされたリソースを検索します。
         /// </summary>
         internal static System.Drawing.Icon icon_128 {
@@ -771,46 +721,6 @@ namespace EreBla.Properties {
             get {
                 object obj = ResourceManager.GetObject("joker", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   型 System.Byte[] のローカライズされたリソースを検索します。
-        /// </summary>
-        internal static byte[] loseE1 {
-            get {
-                object obj = ResourceManager.GetObject("loseE1", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   型 System.Byte[] のローカライズされたリソースを検索します。
-        /// </summary>
-        internal static byte[] loseE2 {
-            get {
-                object obj = ResourceManager.GetObject("loseE2", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   型 System.Byte[] のローカライズされたリソースを検索します。
-        /// </summary>
-        internal static byte[] loseM1 {
-            get {
-                object obj = ResourceManager.GetObject("loseM1", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   型 System.Byte[] のローカライズされたリソースを検索します。
-        /// </summary>
-        internal static byte[] loseM2 {
-            get {
-                object obj = ResourceManager.GetObject("loseM2", resourceCulture);
-                return ((byte[])(obj));
             }
         }
         
@@ -955,26 +865,6 @@ namespace EreBla.Properties {
         }
         
         /// <summary>
-        ///   型 System.Byte[] のローカライズされたリソースを検索します。
-        /// </summary>
-        internal static byte[] playE {
-            get {
-                object obj = ResourceManager.GetObject("playE", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   型 System.Byte[] のローカライズされたリソースを検索します。
-        /// </summary>
-        internal static byte[] playM {
-            get {
-                object obj = ResourceManager.GetObject("playM", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
         ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
         /// </summary>
         internal static System.Drawing.Bitmap s01 {
@@ -1105,26 +995,6 @@ namespace EreBla.Properties {
         }
         
         /// <summary>
-        ///   型 System.Byte[] のローカライズされたリソースを検索します。
-        /// </summary>
-        internal static byte[] selectE {
-            get {
-                object obj = ResourceManager.GetObject("selectE", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   型 System.Byte[] のローカライズされたリソースを検索します。
-        /// </summary>
-        internal static byte[] selectM {
-            get {
-                object obj = ResourceManager.GetObject("selectM", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
         ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
         /// </summary>
         internal static System.Drawing.Bitmap spsc {
@@ -1149,46 +1019,6 @@ namespace EreBla.Properties {
         internal static System.IO.UnmanagedMemoryStream titleM {
             get {
                 return ResourceManager.GetStream("titleM", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   型 System.Byte[] のローカライズされたリソースを検索します。
-        /// </summary>
-        internal static byte[] winE1 {
-            get {
-                object obj = ResourceManager.GetObject("winE1", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   型 System.Byte[] のローカライズされたリソースを検索します。
-        /// </summary>
-        internal static byte[] winE2 {
-            get {
-                object obj = ResourceManager.GetObject("winE2", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   型 System.Byte[] のローカライズされたリソースを検索します。
-        /// </summary>
-        internal static byte[] winM1 {
-            get {
-                object obj = ResourceManager.GetObject("winM1", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   型 System.Byte[] のローカライズされたリソースを検索します。
-        /// </summary>
-        internal static byte[] winM2 {
-            get {
-                object obj = ResourceManager.GetObject("winM2", resourceCulture);
-                return ((byte[])(obj));
             }
         }
     }

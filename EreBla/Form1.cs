@@ -9,7 +9,7 @@ namespace EreBla
     public partial class CharacterSelect : Form
     {
         public GameMain mm;                     // メインにキャラクタ番号を受け渡すためのオブジェクト
-        private SpStream selectBGM;                 // BGM用IOストリーム
+        private SpStream selectBGM;              // BGM用IOストリーム
         private System.Media.SoundPlayer selectBGMplayer;   // BGM再生オブジェクト
 
         public CharacterSelect()
@@ -187,12 +187,11 @@ namespace EreBla
             AudioFileReader audioReader;
 
             audioReader = new AudioFileReader("voice\\" + s + ".mp3");
-            audioReader.Volume = (float)((float)sliderVolume.Value / 100f);
+            audioReader.Volume = (float)((float)sliderVolume.Value / 100f * 0.7f);
             player = new NAudio.Wave.WaveOut();
             player.Init(audioReader);
             player.Play();
-            while (player.PlaybackState == PlaybackState.Playing)
-            {
+            while (player.PlaybackState == PlaybackState.Playing) {
                 await Task.Delay(100);
             }
         }
